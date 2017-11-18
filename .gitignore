@@ -1,0 +1,8 @@
+.idea/
+coverage/
+node_modules/
+public/
+tmp/
+
+.DS_Store
+icon.psd

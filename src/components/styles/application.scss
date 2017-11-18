@@ -1,0 +1,23 @@
+@import '~normalize.css';
+@import 'lib/variables';
+@import 'lib/mixins';
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+#application {
+  border-radius: 10px;
+  color: $primary-color;
+  font-family: $primary-font;
+  padding: 24px;
+
+  @include respond-to('mobile') {
+    padding: 12px;
+  }
+}
