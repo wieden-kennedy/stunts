@@ -1,9 +1,31 @@
 {
-  "presets": ["env", "react"],
+  "presets": [
+    ["env", {
+      "modules": false
+    }],
+    "react"
+  ],
   "plugins": [
     "transform-runtime",
     "transform-decorators-legacy",
     "transform-class-properties",
     "transform-object-rest-spread"
-  ]
+  ],
+
+  "env": {
+    "test": {
+      "presets": [
+        ["env", {
+          "modules": "umd"
+        }],
+        "react"
+      ],
+      "plugins": [
+        "transform-runtime",
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        "transform-object-rest-spread"
+      ]
+    }
+  }
 }

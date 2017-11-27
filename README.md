@@ -51,3 +51,10 @@ License
 -------
 
 Apache 2.0
+
+Other Useful Tools, Libraries, Components, etc
+----------------------------------------------
+
+- [classnames](https://github.com/JedWatson/classnames) `npm i --save classnames`
+- [react-icons](https://github.com/gorangajic/react-icons) `npm i --save react-icons`
+- [yml-loader](https://github.com/nkt/yml-loader) (webpack) `npm i --save-dev yml-loader`
