@@ -56,5 +56,6 @@ Other Useful Tools, Libraries, Components, etc
 ----------------------------------------------
 
 - [classnames](https://github.com/JedWatson/classnames) `npm i --save classnames`
+- [material-ui](https://github.com/mui-org/material-ui) `npm i --save material-ui`
 - [react-icons](https://github.com/gorangajic/react-icons) `npm i --save react-icons`
 - [yml-loader](https://github.com/nkt/yml-loader) (webpack) `npm i --save-dev yml-loader`
