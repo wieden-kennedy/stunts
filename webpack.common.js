@@ -46,5 +46,9 @@ exports.rules = [
     {
         test: /\.(png|svg|jpg|gif)$/,
         use: ['file-loader']
+    },
+    {
+        test: /\.(eot|ttf|woff|woff2)$/,
+        use: ['file-loader']
     }
 ];
