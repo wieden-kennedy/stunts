@@ -8,7 +8,8 @@ const paths = {
     src: path.join(__dirname, 'src'),
     dest: path.join(__dirname, 'public'),
     assets: path.join(__dirname, 'src/assets'),
-    modernizr: path.join(__dirname, 'modernizr-config.json')
+    modernizr: path.join(__dirname, 'modernizr-config.json'),
+    static: path.join(__dirname, 'static')
 };
 
 exports.paths = paths;
