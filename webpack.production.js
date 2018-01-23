@@ -25,16 +25,15 @@ module.exports = {
         ], {}),
         new CopyWebpackPlugin([
             './src/404.html',
-            './src/favicon.ico',
-            './src/favicon-16x16.png',
-            './src/favicon-32x32.png',
-            './src/favicon-96x96.png',
-            './src/icon.png',
             './src/robots.txt',
             './src/site.manifest',
             {
                 from: common.paths.assets,
                 to: path.join(common.paths.dest, 'assets')
+            },
+            {
+                from: common.paths.static,
+                to: path.join(common.paths.dest, 'static')
             }
         ]),
         new DefinePlugin({

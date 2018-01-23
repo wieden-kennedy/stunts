@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const DashboardPlugin = require('webpack-dashboard/plugin');
 const {DefinePlugin, NamedModulesPlugin, HotModuleReplacementPlugin} = require('webpack');
 const common = require('./webpack.common');
@@ -10,7 +11,7 @@ module.exports = {
     ],
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: common.paths.dest,
+        contentBase: __dirname,
         hot: true,
         port: common.PORT
     },
